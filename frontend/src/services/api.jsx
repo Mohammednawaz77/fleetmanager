@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/vehicles';
+const API_URL = 'https://fleetmanager-bbt5.onrender.com/';
 
 export const fetchVehicles = async () => axios.get(API_URL);
 export const addVehicle = async (vehicle) => axios.post(API_URL, vehicle);
